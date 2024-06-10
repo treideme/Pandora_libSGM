@@ -49,8 +49,8 @@ ext_1 = Extension(
 
 extensions = [ext_1]
 
-os.environ["CC"] = shutil.which("gcc")
-os.environ["CXX"] = shutil.which("g++")
+#os.environ["CC"] = shutil.which("gcc")
+#os.environ["CXX"] = shutil.which("g++")
 
 
 def readme():
